@@ -12,6 +12,9 @@
         <li><a href="forms.php">Forms</a></li>
         <li><a href="user.php">User Page</a></li>
         <li><a href="logout.php">LogOut</a></li>
+        <li><a href="sql.php">SQL code</a></li>
+        <li><a href="customer.php">Customers</a></li>
+        <li><a href="add_customer.php">AddCustomers</a></li>
       </ul>
     </div>
     <div id="content">
