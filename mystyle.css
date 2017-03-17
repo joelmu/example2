@@ -1,0 +1,14 @@
+#menu{
+background-color: lightblue;
+float: left;
+width: 150px;
+}
+#content ul{
+list-style: none;
+}
+#menu ul li a:hover{
+background-color:red;
+}
+#content{
+  margin-left: 160px;
+}
