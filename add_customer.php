@@ -8,7 +8,7 @@
 <input type="text" name="ln" id="ln" value="" required=""><br>
 
 <label for="ad">Streetaddresst</label><br>
-<input type="text" name="ad" id="ad" value="" required="">
+<input type="text" name="ad" id="ad" value="">
 
 <input type="submit" name="btnAdd" value="add">
 </form>
