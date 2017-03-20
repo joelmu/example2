@@ -14,5 +14,14 @@
   ) Engine=InnoDB;
 
   INSERT INTO customers(firstname,lastname) VALUES('Ann','Smith');
+
+  CREATE TABLE cats(
+  id_cats SMALLINT PRIMARY KEY auto_increment,
+  name VARCHAR(30),
+  color VARCHAR(20),
+  id_customers SMALLINT,
+  FOREIGN KEY id_customers REFERENCES customers(id_customers)
+    ON DELETE RESTRICT ONUPDATE CASCADE) Engine=InnoDB;
+  )
 </pre>
 <?php include "footer.php"; ?>
