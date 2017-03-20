@@ -15,6 +15,7 @@
         <li><a href="sql.php">SQL code</a></li>
         <li><a href="customer.php">Customers</a></li>
         <li><a href="add_customer.php">AddCustomers</a></li>
+        <li><a href="cats.php">Cats</a></li>
       </ul>
     </div>
     <div id="content">
