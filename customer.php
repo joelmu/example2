@@ -34,7 +34,7 @@ if (isset($_POST['btnDelete'])){
 <h2>Customers</h2>
 <table border="1">
   <tr>
-    <th>Firstname</th><th>Lastname</th><th>Streetaddress</th><th>Edit</th><th>Delete</th>
+    <th>Firstname</th><th>Lastname</th><th>Streetaddress</th><th>Choose</th>
   </tr>
 
 <?php
@@ -48,7 +48,7 @@ foreach($customers_data as $row) {
   echo '<tr><td>'.$row['firstname'].'</td><td> '.$row['lastname'].'</td><td> '.$row['streetaddress'].'</td>';
   echo '<td><a href="update_customer.php?id='.$row['id_customers'].'"><button>Update</button></a></td>';
   echo '<td><a href="delete_customer.php?id='.$row['id_customers'].'"><button>Delete</button></a></td>';
-  echo '</tr>';
+ echo '</tr>';
 }
 ?>
 </table>

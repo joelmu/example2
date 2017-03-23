@@ -8,7 +8,7 @@ include "connection.php";
   $ln=$_POST['ln'];
   $ad=$_POST['ad'];
   $add->execute();
-header('Location: customers.php');
+header('Location: customer.php');
  ?>
 Contact GitHub API Training Shop Blog About
 © 2017 GitHub, Inc. Terms Privacy

@@ -14,7 +14,7 @@
   foreach($customers_data as $row) {
     echo '<tr><td><input type="text" name="fn[]" value="'.$row['firstname'].'"/></td>
     <td><input type="text" name="ln[]" value="'.$row['lastname'].'"/></td>
-    <td><input type="text" name="st[]" value="'.$row['streetaddress'].'"/></td>';
+    <td><input type="text" name="ad[]" value="'.$row['streetaddress'].'"/></td>';
     echo '<input type="hidden" name="id[]" value="'.$row['id_customers'].'"/>';
     echo '</tr>';
   }

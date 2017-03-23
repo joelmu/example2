@@ -9,7 +9,7 @@ $fn=$theArray['firstname'];
 $ln=$theArray['lastname'];
 $st=$theArray['streetaddress'];
 ?>
-<form class="" action="customers.php" method="post">
+<form class="" action="customer.php" method="post">
 <label for="fn">Fistname</label><br />
 <input type="text" name="fn" id="fn" value="<?php echo $fn; ?>" disabled><br>
 
