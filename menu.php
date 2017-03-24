@@ -2,7 +2,9 @@
   <head>
     <meta charset="utf-8">
     <title>PHP example2</title>
-    <link rel="stylesheet" type="text/css" href="mystyle.css"
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script type="text/javascript" src="myFunction.js">
+    </script>
   </head>
   <body>
     <div id="menu">
